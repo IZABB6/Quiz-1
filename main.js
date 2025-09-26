@@ -3,7 +3,7 @@ const { startQuiz } = require("./quiz");
 
 
 
-function startScreen() {
+function startScreen() {//written by Beth
     console.log("~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ");
     console.log("   ✧     ⁺₊     ✧   ✧ ⁺₊");
     console.log("✩      Girlypoppyquizzy   ✩");
