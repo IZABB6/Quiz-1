@@ -1,6 +1,6 @@
 const prompt = require("readline-sync");
 const { startQuiz } = require("./quiz");
-const emoji = require ("node-emoji");
+
 
 
 function startScreen() {

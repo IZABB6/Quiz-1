@@ -1,6 +1,6 @@
 const prompt = require("readline-sync");
 const { TFquestion, FBquestion } = require("./questions");
-const emoji = ("node-emoji");
+//everythhing else written by Halyna
 
 
 // ~ initialise variables ~
@@ -10,7 +10,7 @@ let quizHistory = [];
 let totalPossiblePoints = 0;
 let playerName = "";
 
-function multipleChoice(){
+function multipleChoice(){ // written by Bella
     //point set up//---------------------------
     let points = 0;
     //Questions//---------------------------
@@ -81,7 +81,7 @@ function multipleChoice(){
 
 // True/False function
 // ~ ~ functions ~ ~
-function trueOrFalse(currenrQuestion){
+function trueOrFalse(currenrQuestion){ // written by Beth
     //setting the variables so they reset each time the module is called
     let attempts = 3;
     let correct = false;
@@ -111,7 +111,7 @@ return points;
    
 
 // Fill in the blank function
-function fillBlank() {
+function fillBlank() {// written by Amanda
     let points = 0;
     
     // Get one random question
